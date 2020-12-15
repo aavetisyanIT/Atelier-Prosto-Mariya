@@ -5,9 +5,11 @@ export default function NavBar() {
 	const [navBarToggle, setNavBarToggle] = useState(true);
 	const [subMenuToggle, setSubMenuToggle] = useState(false);
 
+	//toggle NavBar
 	const navBarClickHandle = () => {
 		setNavBarToggle(!navBarToggle);
 	};
+	//toggle SideBar
 	const handleSubMenuToggle = () => {
 		setSubMenuToggle(!subMenuToggle);
 	};
