@@ -20,6 +20,7 @@
   "homepage": "https://github.com/aavetisyanIT/Atelier-Prosto-Mariya#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
+    "emailjs-com": "^2.6.4",
     "next": "^10.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
