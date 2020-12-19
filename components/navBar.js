@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function NavBar() {
@@ -13,6 +13,29 @@ export default function NavBar() {
 	const handleSubMenuToggle = () => {
 		setSubMenuToggle(!subMenuToggle);
 	};
+
+	//sticky navbar
+	//unfinished!!!!
+	//Need to  find sideBarBottom dynamically depending on screen size
+	//Need to apply correct styles to div with class="inner"
+	//something like this style={{position: fixed, top: -1250px}} where top is sideBarBottom
+	useEffect(() => {
+		function handleScroll(e) {
+			let sideBarBottom = e.target.documentElement.scrollTop;
+			if (sideBarBottom >= 1000) {
+				console.log('sticking');
+				console.log(sideBarBottom);
+			} else if (sideBarBottom <= 1000) {
+				console.log('unsticking');
+				console.log(sideBarBottom);
+			}
+		}
+		window.addEventListener('scroll', handleScroll, { passive: true });
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
+
 	return (
 		<>
 			<div id='sidebar' className={navBarToggle ? 'active' : 'inactive'}>
@@ -77,7 +100,7 @@ export default function NavBar() {
 						<div className='mini-posts'>
 							<article>
 								<a href='#' className='image'>
-									<img src='#' alt='' />
+									<img src='images/sewing_contactUs.jpg' alt='' />
 								</a>
 								<p>
 									Aenean ornare velit lacus, ac varius enim lorem
@@ -86,7 +109,7 @@ export default function NavBar() {
 							</article>
 							<article>
 								<a href='#' className='image'>
-									<img src='#' alt='' />
+									<img src='images/sewing_contactUs.jpg' alt='' />
 								</a>
 								<p>
 									Aenean ornare velit lacus, ac varius enim lorem
@@ -95,7 +118,7 @@ export default function NavBar() {
 							</article>
 							<article>
 								<a href='#' className='image'>
-									<img src='#' alt='' />
+									<img src='images/sewing_contactUs.jpg' alt='' />
 								</a>
 								<p>
 									Aenean ornare velit lacus, ac varius enim lorem

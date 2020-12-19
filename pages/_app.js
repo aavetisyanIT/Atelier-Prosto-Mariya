@@ -3,6 +3,8 @@ import NavBar from '../components/navBar';
 import Header from '../components/header';
 import Head from 'next/head';
 
+import React, { useState, useEffect } from 'react';
+
 function MyApp({ Component, pageProps }) {
 	return (
 		<>
@@ -18,7 +20,6 @@ function MyApp({ Component, pageProps }) {
 					href='https://unpkg.com/react-sidebar-ui@1.2.0/dist/index.css'
 				/>
 				<link rel='stylesheet' href='/assets/css/main.css' />
-				<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
 			</Head>
 			{/* Wrapper */}
 			<div id='wrapper'>
