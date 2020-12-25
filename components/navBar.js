@@ -13,28 +13,39 @@ export default function NavBar() {
 	const handleSubMenuToggle = () => {
 		setSubMenuToggle(!subMenuToggle);
 	};
+	//close SideBar if width of viewport is less then 1280px
+	useEffect(() => {
+		window.addEventListener('resize', () => {
+			if (window.innerWidth < 1280) {
+				setNavBarToggle(!navBarToggle);
+			}
+		});
+	}, []);
 
 	//sticky navbar
 	//unfinished!!!!
 	//Need to  find sideBarBottom dynamically depending on screen size
 	//Need to apply correct styles to div with class="inner"
 	//something like this style={{position: fixed, top: -1250px}} where top is sideBarBottom
-	useEffect(() => {
-		function handleScroll(e) {
-			let sideBarBottom = e.target.documentElement.scrollTop;
-			if (sideBarBottom >= 1000) {
-				console.log('sticking');
-				console.log(sideBarBottom);
-			} else if (sideBarBottom <= 1000) {
-				console.log('unsticking');
-				console.log(sideBarBottom);
-			}
-		}
-		window.addEventListener('scroll', handleScroll, { passive: true });
-		return () => {
-			window.removeEventListener('scroll', handleScroll);
-		};
-	}, []);
+	// useEffect(() => {
+	// 	function handleScroll(e) {
+	// 		let sideBarBottom = e.target.documentElement.scrollTop;
+	// 		let innerDiv = document.querySelector('#sidebar');
+	// 		if (sideBarBottom >= 1000 && window.innerWidth > 1280) {
+	// 			console.log('sticking');
+	// 			innerDiv.style['position'] = '-webkit-sticky';
+	// 			innerDiv.style['top'] = '0';
+	// 		} else if (sideBarBottom <= 1000 && window.innerWidth > 1280) {
+	// 			console.log('unsticking');
+	// 			innerDiv.style['position'] = 'relative';
+	// 			innerDiv.style['top'] = '0';
+	// 		}
+	// 	}
+	// 	window.addEventListener('scroll', handleScroll, { passive: true });
+	// 	return () => {
+	// 		window.removeEventListener('scroll', handleScroll);
+	// 	};
+	// }, []);
 
 	return (
 		<>
