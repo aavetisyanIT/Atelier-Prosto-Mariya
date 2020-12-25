@@ -2,8 +2,7 @@ import App from 'next/app';
 import NavBar from '../components/navBar';
 import Header from '../components/header';
 import Head from 'next/head';
-
-import React, { useState, useEffect } from 'react';
+import '../public/assets/css/services.css';
 
 function MyApp({ Component, pageProps }) {
 	return (
