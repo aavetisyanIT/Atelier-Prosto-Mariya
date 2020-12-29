@@ -1,0 +1,36 @@
+.formContainer {
+	display: flex;
+	flex-direction: row;
+}
+.form {
+	flex: 1;
+}
+
+.formText {
+	flex: 1;
+	text-align: center;
+}
+.formText h4 {
+	margin: auto;
+	padding: 7em 3em;
+}
+#whyUs {
+	display: block;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	padding-bottom: 2em;
+}
+
+@media screen and (max-width: 770px) {
+	.formContainer {
+		display: flex;
+		flex-direction: column;
+	}
+	.formText p {
+		margin: auto;
+		padding: 0 3em;
+	}
+}

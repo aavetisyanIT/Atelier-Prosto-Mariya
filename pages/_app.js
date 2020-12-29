@@ -3,6 +3,7 @@ import NavBar from '../components/navBar';
 import Header from '../components/header';
 import Head from 'next/head';
 import '../public/assets/css/services.css';
+import '../public/assets/css/contactUs.css';
 
 function MyApp({ Component, pageProps }) {
 	return (
