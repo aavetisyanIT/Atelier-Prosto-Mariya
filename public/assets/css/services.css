@@ -1,24 +1,67 @@
 .service {
 	border-top: solid 2px rgba(210, 215, 217, 0.75);
-	padding: 2em 0;
+	padding: 4em 0;
+}
+h4 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
 }
 .container {
 	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.containerReverse {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
 }
 .serviceContent {
-	text-align: center;
-	width: 35em;
-	height: 35em;
+	flex: 1;
+	flex-grow: 0.8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5em 0;
 }
 .serviceContent p {
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
-	height: 15rem;
-	/* text-align: left; */
+	margin: auto;
+	padding: 0 auto;
 }
+.serviceImage {
+	flex: 1;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .serviceImage img {
-	width: 35em;
-	height: auto;
-	padding: 5em 0;
+	width: 75%;
+	margin: auto;
+	border-radius: 0.35em;
+}
+
+@media screen and (max-width: 950px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+	.containerReverse {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	.serviceImage img {
+		width: 85%;
+		height: auto;
+		border-radius: 0.35em;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: auto;
+	}
 }

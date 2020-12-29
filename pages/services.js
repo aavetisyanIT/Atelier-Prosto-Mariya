@@ -4,12 +4,12 @@ export default function Blog() {
 	return (
 		<div className='inner'>
 			<h1>Services</h1>
-			<p>
+			<h4>
 				At Atelier Prosto Mariya, I offer comprehensive tailoring services
 				to help you with all your clothing needs. Because every tailor shop
 				provides different services, it’s essential to know what a shop can
 				and can’t do before you drop off your clothing to be altered.
-			</p>
+			</h4>
 			<section className='service'>
 				<h2>Alterations</h2>
 				<div className='container'>
@@ -31,16 +31,13 @@ export default function Blog() {
 						</p>
 					</div>
 					<span className='serviceImage'>
-						<img src='/images/fabric-needle.jpg' alt='' />
+						<img src='/images/spratt.jpg' alt='' />
 					</span>
 				</div>
 			</section>
 			<section className='service'>
 				<h2>Mending</h2>
-				<div className='container'>
-					<span className='serviceImage'>
-						<img src='/images/fabric-needle.jpg' alt='' />
-					</span>
+				<div className='containerReverse'>
 					<div className='serviceContent'>
 						<p>
 							Have you ever torn a hole in your favorite pair of jeans or
@@ -54,6 +51,9 @@ export default function Blog() {
 							item. Just drop it off, and I’ll make it good as new!
 						</p>
 					</div>
+					<span className='serviceImage'>
+						<img src='/images/spratt.jpg' alt='' />
+					</span>
 				</div>
 			</section>
 			<section className='service'>
@@ -76,16 +76,13 @@ export default function Blog() {
 						</p>
 					</div>
 					<span className='serviceImage'>
-						<img src='/images/fabric-needle.jpg' alt='' />
+						<img src='/images/spratt.jpg' alt='' />
 					</span>
 				</div>
 			</section>
 			<section className='service'>
 				<h2>Adding Buttons and Zippers</h2>
-				<div className='container'>
-					<span className='serviceImage'>
-						<img src='/images/fabric-needle.jpg' alt='' />
-					</span>
+				<div className='containerReverse'>
 					<div className='serviceContent'>
 						<p>
 							At Atelier Prosto Mariya, I can fix your broken buttons and
@@ -97,6 +94,9 @@ export default function Blog() {
 							without the assistance of others.
 						</p>
 					</div>
+					<span className='serviceImage'>
+						<img src='/images/spratt.jpg' alt='' />
+					</span>
 				</div>
 			</section>
 			<section className='service'>
@@ -119,7 +119,7 @@ export default function Blog() {
 						</p>
 					</div>
 					<span className='serviceImage'>
-						<img src='/images/fabric-needle.jpg' alt='' />
+						<img src='/images/spratt.jpg' alt='' />
 					</span>
 				</div>
 			</section>
