@@ -114,27 +114,21 @@ export default function NavBar() {
 						</header>
 						<div className='mini-posts'>
 							<article>
-								<a href='#' className='image'>
-									<img src='images/sewing_contactUs.jpg' alt='' />
+								<a href='helpfulArticals' className='image'>
+									<img src='images/wardrobe.jpg' alt='' />
 								</a>
-								<p>
-									Aenean ornare velit lacus, ac varius enim lorem
-									ullamcorper dolore aliquam.
-								</p>
+								<p>6 Tailor Services That Can Benefit Your Wardrobe</p>
 							</article>
 							<article>
-								<a href='#' className='image'>
-									<img src='images/sewing_contactUs.jpg' alt='' />
+								<a href='helpfulArticals' className='image'>
+									<img src='images/prolong.jpg' alt='' />
 								</a>
-								<p>
-									Aenean ornare velit lacus, ac varius enim lorem
-									ullamcorper dolore aliquam.
-								</p>
+								<p>5 Secrets to Prolonging the Life of Your Clothing</p>
 							</article>
 						</div>
 						<ul className='actions'>
 							<li>
-								<a href='#' className='button'>
+								<a href='helpfulArticals' className='button'>
 									More
 								</a>
 							</li>
