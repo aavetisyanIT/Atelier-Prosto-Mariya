@@ -31,7 +31,7 @@ export default function Blog() {
 						</p>
 					</div>
 					<span className='serviceImage'>
-						<img src='/images/spratt.jpg' alt='' />
+						<img src='/images/alterations.jpg' alt='' />
 					</span>
 				</div>
 			</section>
@@ -52,7 +52,7 @@ export default function Blog() {
 						</p>
 					</div>
 					<span className='serviceImage'>
-						<img src='/images/spratt.jpg' alt='' />
+						<img src='/images/mending.jpg' alt='' />
 					</span>
 				</div>
 			</section>
@@ -76,7 +76,7 @@ export default function Blog() {
 						</p>
 					</div>
 					<span className='serviceImage'>
-						<img src='/images/spratt.jpg' alt='' />
+						<img src='/images/hemming.jpg' alt='' />
 					</span>
 				</div>
 			</section>
@@ -95,7 +95,7 @@ export default function Blog() {
 						</p>
 					</div>
 					<span className='serviceImage'>
-						<img src='/images/spratt.jpg' alt='' />
+						<img src='/images/buttons_zippers.jpg' alt='' />
 					</span>
 				</div>
 			</section>
@@ -119,11 +119,11 @@ export default function Blog() {
 						</p>
 					</div>
 					<span className='serviceImage'>
-						<img src='/images/spratt.jpg' alt='' />
+						<img src='/images/customClothing.jpg' alt='' />
 					</span>
 				</div>
 			</section>
-			<h3>Use Professional Tailoring Services from Atelier Prosto Mariya</h3>
+			<p>Use Professional Tailoring Services from Atelier Prosto Mariya</p>
 			<p>
 				Don’t ever attempt to alter or repair a garment yourself. The
 				results could be irreversible. Leave all your garment repair needs

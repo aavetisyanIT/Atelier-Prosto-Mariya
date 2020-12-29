@@ -105,33 +105,7 @@ export default function Home() {
 				<div className='posts'>
 					<article>
 						<a href='#' className='image'>
-							<img src='/images/spratt.jpg' alt='' />
-						</a>
-						<h3>
-							Three Decades of Experience. Three Generations of
-							Tradition.
-						</h3>
-						<p>
-							I’ve been sewing for over thirty years. It’s hard to find
-							another tailor that matches that level of experience.
-							Tailoring services have become a family tradition. My
-							mother was a tailor, I’m a tailor, and I’m passing the
-							craft onto my daughter. You’ll be hard-pressed to find a
-							tailor that’s more passionate about sewing than I am!
-							Tailoring is my whole world. I love sharing my gift with
-							others.
-						</p>
-						<ul className='actions'>
-							<li>
-								<a href='#' className='button'>
-									More
-								</a>
-							</li>
-						</ul>
-					</article>
-					<article>
-						<a href='#' className='image'>
-							<img src='images/fashion.jpg' alt='' />
+							<img src='images/boost.jpg' alt='' />
 						</a>
 						<h3>
 							When you know your clothes look great, you’ll automatically
@@ -156,7 +130,34 @@ export default function Home() {
 					</article>
 					<article>
 						<a href='#' className='image'>
-							<img src='images/custom.jpg' alt='' />
+							<img src='/images/spratt.jpg' alt='' />
+						</a>
+						<h3>
+							Three Decades of Experience. Three Generations of
+							Tradition.
+						</h3>
+						<p>
+							I’ve been sewing for over thirty years. It’s hard to find
+							another tailor that matches that level of experience.
+							Tailoring services have become a family tradition. My
+							mother was a tailor, I’m a tailor, and I’m passing the
+							craft onto my daughter. You’ll be hard-pressed to find a
+							tailor that’s more passionate about sewing than I am!
+							Tailoring is my whole world. I love sharing my gift with
+							others.
+						</p>
+						<ul className='actions'>
+							<li>
+								<a href='#' className='button'>
+									More
+								</a>
+							</li>
+						</ul>
+					</article>
+
+					<article>
+						<a href='#' className='image'>
+							<img src='images/tailored.jpg' alt='' />
 						</a>
 						<h3>The Importance of Tailored Clothing</h3>
 						<p>
