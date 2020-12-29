@@ -67,7 +67,7 @@ export default function NavBar() {
 								<Link href='/about'>About Us</Link>
 							</li>
 							<li>
-								<Link href='/blog'>Blog</Link>
+								<Link href='/faq'>FAQ</Link>
 							</li>
 							<li>
 								<span
@@ -113,15 +113,6 @@ export default function NavBar() {
 							<h2>Ante interdum</h2>
 						</header>
 						<div className='mini-posts'>
-							<article>
-								<a href='#' className='image'>
-									<img src='images/sewing_contactUs.jpg' alt='' />
-								</a>
-								<p>
-									Aenean ornare velit lacus, ac varius enim lorem
-									ullamcorper dolore aliquam.
-								</p>
-							</article>
 							<article>
 								<a href='#' className='image'>
 									<img src='images/sewing_contactUs.jpg' alt='' />
