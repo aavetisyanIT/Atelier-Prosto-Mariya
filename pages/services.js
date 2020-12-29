@@ -3,7 +3,7 @@ import React from 'react';
 export default function Blog() {
 	return (
 		<div className='inner'>
-			<h1>Services</h1>
+			<h1 id='alterations'>Services</h1>
 			<h4>
 				At Atelier Prosto Mariya, I offer comprehensive tailoring services
 				to help you with all your clothing needs. Because every tailor shop
@@ -35,7 +35,7 @@ export default function Blog() {
 					</span>
 				</div>
 			</section>
-			<section className='service'>
+			<section className='service' id='mending'>
 				<h2>Mending</h2>
 				<div className='containerReverse'>
 					<div className='serviceContent'>
@@ -56,7 +56,7 @@ export default function Blog() {
 					</span>
 				</div>
 			</section>
-			<section className='service'>
+			<section className='service' id='hemming'>
 				<h2>Hemming</h2>
 				<div className='container'>
 					<div className='serviceContent'>
@@ -80,7 +80,7 @@ export default function Blog() {
 					</span>
 				</div>
 			</section>
-			<section className='service'>
+			<section className='service' id='buttonsZippers'>
 				<h2>Adding Buttons and Zippers</h2>
 				<div className='containerReverse'>
 					<div className='serviceContent'>
@@ -99,7 +99,7 @@ export default function Blog() {
 					</span>
 				</div>
 			</section>
-			<section className='service'>
+			<section className='service' id='customClothing'>
 				<h2>Custom Clothing</h2>
 				<div className='container'>
 					<div className='serviceContent'>

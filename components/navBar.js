@@ -80,20 +80,24 @@ export default function NavBar() {
 								</span>
 								<ul>
 									<li>
-										<Link href='/services'>Alterations</Link>
+										<Link href='/services#alterations'>
+											Alterations
+										</Link>
 									</li>
 									<li>
-										<Link href='/services'>Mending</Link>
+										<Link href='/services#mending'>Mending</Link>
 									</li>
 									<li>
-										<Link href='/services'>Hemming</Link>
+										<Link href='/services#hemming'>Hemming</Link>
 									</li>
 									<li>
-										<Link href='/services'>Custom Clothing</Link>
-									</li>
-									<li>
-										<Link href='/services'>
+										<Link href='/services#buttonsZippers'>
 											Adding Buttons and Zippers
+										</Link>
+									</li>
+									<li>
+										<Link href='/services#customClothing'>
+											Custom Clothing
 										</Link>
 									</li>
 								</ul>
