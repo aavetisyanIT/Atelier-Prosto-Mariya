@@ -110,17 +110,17 @@ export default function NavBar() {
 					{/* Section */}
 					<section>
 						<header className='major'>
-							<h2>Ante interdum</h2>
+							<h2>Helpful Articales</h2>
 						</header>
 						<div className='mini-posts'>
 							<article>
-								<a href='helpfulArticals' className='image'>
+								<a href='helpfulArticles' className='image'>
 									<img src='images/wardrobe.jpg' alt='' />
 								</a>
 								<p>6 Tailor Services That Can Benefit Your Wardrobe</p>
 							</article>
 							<article>
-								<a href='helpfulArticals' className='image'>
+								<a href='helpfulArticles' className='image'>
 									<img src='images/prolong.jpg' alt='' />
 								</a>
 								<p>5 Secrets to Prolonging the Life of Your Clothing</p>
@@ -128,7 +128,7 @@ export default function NavBar() {
 						</div>
 						<ul className='actions'>
 							<li>
-								<a href='helpfulArticals' className='button'>
+								<a href='helpfulArticles' className='button'>
 									More
 								</a>
 							</li>
