@@ -80,9 +80,7 @@ export default function NavBar() {
 								</span>
 								<ul>
 									<li>
-										<Link href='/services#alterations'>
-											Alterations
-										</Link>
+										<Link href='/services'>Alterations</Link>
 									</li>
 									<li>
 										<Link href='/services#mending'>Mending</Link>
@@ -114,23 +112,29 @@ export default function NavBar() {
 						</header>
 						<div className='mini-posts'>
 							<article>
-								<a href='helpfulArticles' className='image'>
-									<img src='images/wardrobe.jpg' alt='' />
-								</a>
+								<Link href='/helpfulArticles'>
+									<a className='image'>
+										<img src='images/wardrobe.jpg' alt='' />
+									</a>
+								</Link>
+
 								<p>6 Tailor Services That Can Benefit Your Wardrobe</p>
 							</article>
 							<article>
-								<a href='helpfulArticles' className='image'>
-									<img src='images/prolong.jpg' alt='' />
-								</a>
+								<Link href='/helpfulArticles'>
+									<a className='image'>
+										<img src='images/prolong.jpg' alt='' />
+									</a>
+								</Link>
+
 								<p>5 Secrets to Prolonging the Life of Your Clothing</p>
 							</article>
 						</div>
 						<ul className='actions'>
 							<li>
-								<a href='helpfulArticles' className='button'>
-									More
-								</a>
+								<Link href='/helpfulArticles'>
+									<a className='button'>More</a>
+								</Link>
 							</li>
 						</ul>
 					</section>
@@ -159,7 +163,9 @@ export default function NavBar() {
 					</section>
 					{/* Footer */}
 					<footer id='footer'>
-						<p className='copyright'>© Untitled. All rights reserved.</p>
+						<p className='copyright'>
+							© Atelier Prosto Mariya All rights reserved.
+						</p>
 					</footer>
 				</div>
 			</div>

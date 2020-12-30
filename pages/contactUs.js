@@ -92,7 +92,7 @@ export default function Blog() {
 				</div>
 			</div>
 			<section>
-				<header className='major' id='whyUs'>
+				<header className='major' id='contentHeader'>
 					<h2>WHY US?</h2>
 				</header>
 				<p>

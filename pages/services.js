@@ -3,7 +3,7 @@ import React from 'react';
 export default function Blog() {
 	return (
 		<div className='inner'>
-			<h1 id='alterations'>Services</h1>
+			<h1>Services</h1>
 			<h4>
 				At Atelier Prosto Mariya, I offer comprehensive tailoring services
 				to help you with all your clothing needs. Because every tailor shop
