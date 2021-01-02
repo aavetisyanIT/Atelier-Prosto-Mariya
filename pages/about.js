@@ -19,7 +19,7 @@ export default function Generic() {
 					needs to stay in top condition.
 				</p>
 				<hr className='major' />
-				<h2>Feel Great in Your Clothes at All Times</h2>
+				<h2>A Passion for Thread and Helping People Through Clothing</h2>
 				<p>
 					I’ve been sewing for over 30 years. This complex art has captured
 					me so much that I’m still not bored with it. And I don’t think I
