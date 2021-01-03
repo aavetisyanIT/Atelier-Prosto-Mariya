@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function Generic() {
+export default function About() {
 	return (
-		<>
+		<div>
 			{/* Content */}
 			<section>
 				<header className='main'>
@@ -53,7 +53,7 @@ export default function Generic() {
 					never had the same passion for medicine that I did for thread. I
 					wanted to follow in her footsteps
 				</p>
-				<p></p>
+
 				<hr className='major' />
 				<h2>The Power of Clothing</h2>
 				<p>
@@ -84,6 +84,6 @@ export default function Generic() {
 					your clothing!
 				</p>
 			</section>
-		</>
+		</div>
 	);
 }
