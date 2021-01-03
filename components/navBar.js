@@ -165,6 +165,10 @@ export default function NavBar() {
 					<footer id='footer'>
 						<p className='copyright'>
 							© Atelier Prosto Mariya All rights reserved.
+							<br />
+							<Link href='/privacyPolicy'>Privacy Policy </Link>
+							and
+							<Link href='/termsOfUse'> Terms of Use </Link>
 						</p>
 					</footer>
 				</div>

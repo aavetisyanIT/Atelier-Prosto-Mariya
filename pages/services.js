@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Blog() {
+export default function Services() {
 	return (
 		<div className='inner'>
 			<h1>Services</h1>

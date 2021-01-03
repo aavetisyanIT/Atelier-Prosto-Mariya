@@ -1,7 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 
-export default function Blog() {
+export default function ContactUs() {
 	const sendEmail = (e) => {
 		e.preventDefault();
 

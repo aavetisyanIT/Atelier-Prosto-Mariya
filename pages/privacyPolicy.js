@@ -24,6 +24,7 @@ export default function PrivacyPolicy() {
 					opt-out of certain uses and disclosures of your personal
 					information, as further explained in this Privacy Policy.
 					<br />
+					<br />
 					This Privacy Policy does not apply to information we may obtain
 					through other means, including offline or online in another
 					forum. This Privacy Policy also does not apply to other
@@ -81,6 +82,7 @@ export default function PrivacyPolicy() {
 					collected during that transaction to market products and services
 					to you that we think may interest you.
 					<br />
+					<br />
 					Except as stated herein, we do not sell, rent, or share your
 					personal information with third parties. However, we may permit
 					our suppliers, vendors and subcontractors to access your personal
@@ -95,6 +97,7 @@ export default function PrivacyPolicy() {
 					to such a party, we use reasonable efforts to require the party
 					to agree to protect the privacy and confidentiality of your
 					personal information.
+					<br />
 					<br />
 					We also may share your personal information with our related
 					companies who are required to protect the privacy and
@@ -111,15 +114,18 @@ export default function PrivacyPolicy() {
 					Privacy@atelierprostomariya.com which states “OPT OUT – THIRD
 					PARTY MARKETING”.
 					<br />
+					<br />
 					We also may transfer your personal information (i.e., name,
 					e-mail address, etc.) in connection with an actual or perspective
 					sale, merger and change of control or similar transaction
 					involving us or our assets.
 					<br />
+					<br />
 					You will be notified via email (sent to the email address
 					specified in your account) or a notice or updated Privacy Policy
 					on our Website upon any transfer of control of your personal
 					information apart from as otherwise set forth herein.
+					<br />
 					<br />
 					Finally, we may disclose your personal information: (a) as
 					required by law or legal process (including, but not limited to,
@@ -217,6 +223,7 @@ export default function PrivacyPolicy() {
 					work, which may impact or limit certain features you can use on
 					the Website.
 					<br />
+					<br />
 					We may also employ, either directly or through third parties,
 					tracking pixels. Tracking pixels are tiny, transparent graphics
 					with a unique identifier, similar in function to cookies, and are
@@ -288,6 +295,7 @@ export default function PrivacyPolicy() {
 					puts you on our email list (such as submitting an inquiry, making
 					a purchase, etc.), you may again receive emails from which you
 					can again unsubscribe.
+					<br />
 					<br />
 					If you have an account with us, you may opt-out of unsolicited
 					communications by updating your account's personal information
