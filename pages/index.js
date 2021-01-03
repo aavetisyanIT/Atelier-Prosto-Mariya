@@ -182,6 +182,7 @@ export default function Home() {
 					</article>
 				</div>
 			</section>
+			<hr className='major' />
 		</>
 	);
 }

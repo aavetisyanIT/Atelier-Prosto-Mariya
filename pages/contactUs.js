@@ -174,6 +174,7 @@ export default function ContactUs() {
 					</article>
 				</div>
 			</section>
+			<hr className='major' />
 		</div>
 	);
 }

@@ -534,13 +534,7 @@ export default function TermsOfUse() {
 					Company.
 				</p>
 
-				<h2></h2>
-				<h3></h3>
-				<p></p>
 				<hr className='major' />
-
-				<br />
-				<br />
 			</section>
 		</main>
 	);

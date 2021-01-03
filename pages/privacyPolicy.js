@@ -385,6 +385,7 @@ export default function PrivacyPolicy() {
 					referencing what you need help with. I will love to hear from
 					you, so get in touch.
 				</p>
+				<hr className='major' />
 			</section>
 		</main>
 	);

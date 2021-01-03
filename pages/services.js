@@ -123,13 +123,14 @@ export default function Services() {
 					</span>
 				</div>
 			</section>
-			<p>Use Professional Tailoring Services from Atelier Prosto Mariya</p>
+			<h4>Use Professional Tailoring Services from Atelier Prosto Mariya</h4>
 			<p>
 				Don’t ever attempt to alter or repair a garment yourself. The
 				results could be irreversible. Leave all your garment repair needs
 				to the real experts Atelier Prosto Mariya! Call today to make an
 				appointment at the tailor shop.
 			</p>
+			<hr className='major' />
 		</div>
 	);
 }

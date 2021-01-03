@@ -84,6 +84,7 @@ export default function About() {
 					your clothing!
 				</p>
 			</section>
+			<hr className='major' />
 		</div>
 	);
 }
