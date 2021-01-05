@@ -17,10 +17,6 @@ function MyApp({ Component, pageProps }) {
 					name='viewport'
 					content='width=device-width, initial-scale=1, user-scalable=no'
 				/>
-				<link
-					rel='stylesheet'
-					href='https://unpkg.com/react-sidebar-ui@1.2.0/dist/index.css'
-				/>
 				<link rel='stylesheet' href='/assets/css/main.css' />
 			</Head>
 			{/* Wrapper */}

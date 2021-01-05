@@ -8,6 +8,8 @@ Fully responsive design with modern layout and multiple futures like contact for
 -  [Next.js](https://nextjs.org/docs/getting-started) - React framework
 -  [React](https://reactjs.org/docs/getting-started.html) - A JavaScript library.
 -  [EmailJS-COM](https://www.emailjs.com/docs/) - A library to help sending emails.
+-  [Font Awesome](https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use) - Icons and social logos
+-  [Google Fonts](https://fonts.google.com/) - Custom fonts
 
 ## Authors
 
