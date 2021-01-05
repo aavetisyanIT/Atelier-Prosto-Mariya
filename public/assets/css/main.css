@@ -214,7 +214,7 @@ textarea {
 	input,
 	select,
 	textarea {
-		/* font-size: 11pt; */
+		font-size: 11pt;
 	}
 }
 @media screen and (max-width: 1280px) {
@@ -770,6 +770,7 @@ hr.major {
 		padding-top: 3em;
 	}
 }
+
 @media screen and (max-width: 1280px) {
 	.row {
 		display: flex;
@@ -2700,7 +2701,7 @@ button:disabled,
 }
 #sidebar > .inner > * {
 	border-bottom: solid 2px rgba(210, 215, 217, 0.75);
-	margin: 0 0 3.5em 0;
+	margin: 0 0 1em 0;
 	padding: 0 0 3.5em 0;
 }
 #sidebar > .inner > * > :last-child {
