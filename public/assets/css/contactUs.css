@@ -6,6 +6,9 @@
 .form {
 	flex: 1;
 }
+#subject {
+	margin-bottom: 20px;
+}
 
 .formText {
 	flex: 1;
@@ -25,6 +28,56 @@ p {
 	padding-bottom: 2em;
 }
 
+/* toast message when email sent */
+
+.toast {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+	max-width: 400px;
+	background: #cccccc;
+	color: var(--mainText);
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	padding: 15px;
+	border: 1px solid var(--borderColor);
+	border-radius: 5px;
+	box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+
+	visibility: hidden;
+	opacity: 0;
+}
+
+.toast--visible {
+	top: 50px;
+	visibility: visible;
+	opacity: 1;
+}
+
+.toast--success {
+	background: #00c02b;
+	border-color: #009d23;
+	color: #ffffff;
+}
+
+.toast--error {
+	background: #d50000;
+	border-color: #ba0000;
+	color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+	.toast {
+		max-width: 250px;
+	}
+	.toast--visible {
+		top: 50px;
+	}
+}
+
 @media screen and (max-width: 770px) {
 	.formContainer {
 		display: flex;
@@ -33,5 +86,21 @@ p {
 	.formText p {
 		margin: auto;
 		padding: 0 3em;
+	}
+	.toast {
+		max-width: 250px;
+	}
+	.toast--visible {
+		top: 230px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.toast {
+		padding: 10px;
+		max-width: 150px;
+	}
+
+	.toast--visible {
+		top: 220px;
 	}
 }
