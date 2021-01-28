@@ -92,9 +92,9 @@ export default function ContactUs() {
 						get a little confusing. If you have any questions,
 						please send Atelier Prosto Mariya a message! I am
 						happy to get back to you as soon as I can. You can
-						also call me at (773) 603-3396 or stop by our shop
-						Monday through Friday between 9 a.m. and 5 p.m. I
-						can’t wait to meet you!
+						also stop by our shop Monday through Friday
+						between 9 a.m. and 5 p.m. I can’t wait to meet
+						you!
 					</h4>
 				</div>
 			</div>

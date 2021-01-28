@@ -235,10 +235,12 @@ textarea {
 }
 
 a {
-	-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out,
+		border-bottom-color 0.2s ease-in-out;
 	-webkit-transition: color 0.2s ease-in-out,
 		border-bottom-color 0.2s ease-in-out;
-	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out,
+		border-bottom-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	border-bottom: dotted 1px;
 	color: #808000;
@@ -2034,7 +2036,8 @@ ul.pagination li {
 }
 ul.pagination li > .page {
 	-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out,
+		color 0.2s ease-in-out;
 	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	border-bottom: 0;
@@ -2140,7 +2143,8 @@ button,
 	-ms-appearance: none;
 	appearance: none;
 	-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out,
+		color 0.2s ease-in-out;
 	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	background-color: transparent;
@@ -2794,6 +2798,14 @@ button:disabled,
 		margin-left: -24em;
 	}
 }
+
+#sidebar > div > section:nth-child(3) > ul > li > div {
+	margin-bottom: 7px;
+}
+#email-container {
+	margin-left: 3.5em;
+}
+
 @media screen and (max-width: 1280px) {
 	#sidebar {
 		box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);

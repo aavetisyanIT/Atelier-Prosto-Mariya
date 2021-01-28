@@ -42,7 +42,11 @@ export default function NavBar() {
 
 	return (
 		<div id='sidebar' className={navBarToggle ? 'active' : 'inactive'}>
-			<a onClick={navBarClickHandle} href='#sidebar' className='toggle'>
+			<a
+				onClick={navBarClickHandle}
+				href='#sidebar'
+				className='toggle'
+			>
 				MenuButton
 			</a>
 			<div className='inner'>
@@ -64,19 +68,29 @@ export default function NavBar() {
 						<li>
 							<span
 								onClick={handleSubMenuToggle}
-								className={subMenuToggle ? 'opener active' : 'opener'}
+								className={
+									subMenuToggle
+										? 'opener active'
+										: 'opener'
+								}
 							>
 								Services
 							</span>
 							<ul>
 								<li>
-									<Link href='/services'>Alterations</Link>
+									<Link href='/services'>
+										Alterations
+									</Link>
 								</li>
 								<li>
-									<Link href='/services#mending'>Mending</Link>
+									<Link href='/services#mending'>
+										Mending
+									</Link>
 								</li>
 								<li>
-									<Link href='/services#hemming'>Hemming</Link>
+									<Link href='/services#hemming'>
+										Hemming
+									</Link>
 								</li>
 								<li>
 									<Link href='/services#buttonsZippers'>
@@ -104,20 +118,32 @@ export default function NavBar() {
 						<article>
 							<Link href='/helpfulArticles'>
 								<a className='image'>
-									<img src='images/wardrobe.jpg' alt='' />
+									<img
+										src='images/wardrobe.jpg'
+										alt=''
+									/>
 								</a>
 							</Link>
 
-							<p>6 Tailor Services That Can Benefit Your Wardrobe</p>
+							<p>
+								6 Tailor Services That Can Benefit Your
+								Wardrobe
+							</p>
 						</article>
 						<article>
 							<Link href='/helpfulArticles'>
 								<a className='image'>
-									<img src='images/prolong.jpg' alt='' />
+									<img
+										src='images/prolong.jpg'
+										alt=''
+									/>
 								</a>
 							</Link>
 
-							<p>5 Secrets to Prolonging the Life of Your Clothing</p>
+							<p>
+								5 Secrets to Prolonging the Life of Your
+								Clothing
+							</p>
 						</article>
 					</div>
 					<ul className='actions'>
@@ -134,21 +160,21 @@ export default function NavBar() {
 						<h2>Get in touch</h2>
 					</header>
 					<p>
-						We love to hear from customers, both old and new. Send us a
-						message with details on your request, or any questions you
-						have on our services. We will get back to you as soon as
-						possible with an answer.
+						We love to hear from customers, both old and new.
+						Send us a message with details on your request, or
+						any questions you have on our services. We will
+						get back to you as soon as possible with an
+						answer.
 					</p>
 					<ul className='contact'>
 						<li className='icon solid fa-envelope'>
-							<a>atelierprostomariya@gmail.com</a>
-							<br />
-							<a href='mailto: atelierprostomariya@gmail.com'>
-								Send Email
-							</a>
+							<div>atelierprostomariya@gmail.com</div>
+							<div id='email-container'>
+								<a href='mailto: atelierprostomariya@gmail.com'>
+									Send Email
+								</a>
+							</div>
 						</li>
-						<li className='icon solid fa-phone'>(773) 603-3396</li>
-						<li className='icon solid fa-home'>Rosemont, IL 60018</li>
 					</ul>
 				</section>
 				{/* Footer */}
