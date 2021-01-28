@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function PrivacyPolicy() {
 	return (
-		<main>
+		<section>
 			{/* Content */}
 			<section>
 				<header className='main'>
@@ -425,6 +425,6 @@ export default function PrivacyPolicy() {
 				</p>
 				<hr className='major' />
 			</section>
-		</main>
+		</section>
 	);
 }

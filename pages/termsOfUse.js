@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function TermsOfUse() {
 	return (
-		<main>
+		<section>
 			{/* Content */}
 			<section>
 				<header className='main'>
@@ -603,6 +603,6 @@ export default function TermsOfUse() {
 
 				<hr className='major' />
 			</section>
-		</main>
+		</section>
 	);
 }
