@@ -6,6 +6,7 @@ import '../public/assets/css/services.css';
 import '../public/assets/css/contactUs.css';
 import '../public/assets/css/privacyPolicy.css';
 import '../public/assets/css/termsOfUse.css';
+import '../public/assets/css/faq.css';
 
 function MyApp({ Component, pageProps }) {
 	return (
@@ -34,7 +35,7 @@ function MyApp({ Component, pageProps }) {
 	);
 }
 
-MyApp.getInitialProps = async (appContext) => {
+MyApp.getInitialProps = async appContext => {
 	// calls page's `getInitialProps` and fills `appProps.pageProps`
 	const appProps = await App.getInitialProps(appContext);
 

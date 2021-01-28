@@ -63,7 +63,7 @@ export default function NavBar() {
 							<Link href='/about'>About Us</Link>
 						</li>
 						<li>
-							<Link href='/faq'>FAQ</Link>
+							<Link href='/faq'>FAQs</Link>
 						</li>
 						<li>
 							<span
@@ -116,7 +116,7 @@ export default function NavBar() {
 					</header>
 					<div className='mini-posts'>
 						<article>
-							<Link href='/helpfulArticles'>
+							<Link href='/helpfulArticles#tailorServices'>
 								<a className='image'>
 									<img
 										src='images/wardrobe.jpg'
@@ -131,7 +131,7 @@ export default function NavBar() {
 							</p>
 						</article>
 						<article>
-							<Link href='/helpfulArticles'>
+							<Link href='/helpfulArticles#clothingSecrets'>
 								<a className='image'>
 									<img
 										src='images/prolong.jpg'
@@ -171,7 +171,7 @@ export default function NavBar() {
 							<div>atelierprostomariya@gmail.com</div>
 							<div id='email-container'>
 								<a href='mailto: atelierprostomariya@gmail.com'>
-									Send Email
+									Send us email
 								</a>
 							</div>
 						</li>

@@ -29,7 +29,7 @@ export default function ContactUs() {
 	};
 
 	return (
-		<div>
+		<section>
 			<h1>Contact Us</h1>
 			<div className={toast}>{toastMsg}</div>
 			<div className='formContainer'>
@@ -203,6 +203,6 @@ export default function ContactUs() {
 				</div>
 			</section>
 			<hr className='major' />
-		</div>
+		</section>
 	);
 }
