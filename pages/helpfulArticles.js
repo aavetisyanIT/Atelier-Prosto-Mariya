@@ -76,7 +76,7 @@ export default function HelpfulArticles() {
 				can look even cooler with all the pockets, zippers, buttons,
 				and details you want!
 			</p>
-			<h2>Get the Best Tailor Services from Atelier Prosto Mariya!</h2>
+			<h4>Get the Best Tailor Services from Atelier Prosto Mariya!</h4>
 			<h4>
 				Get all these alterations and more when you choose Atelier
 				Prosto Mariya! Our expert tailoring work is flawless! You
