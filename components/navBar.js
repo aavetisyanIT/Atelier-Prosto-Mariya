@@ -24,6 +24,21 @@ export default function NavBar() {
 
 	//sticky navbar at viewport 1280 and up
 	useEffect(() => {
+		function debounce(func, wait = 20, immediate = true) {
+			var timeout;
+			return function () {
+				var context = this,
+					args = arguments;
+				var later = function () {
+					timeout = null;
+					if (!immediate) func.apply(context, args);
+				};
+				var callNow = immediate && !timeout;
+				clearTimeout(timeout);
+				timeout = setTimeout(later, wait);
+				if (callNow) func.apply(context, args);
+			};
+		}
 		function handleScroll(e) {
 			if (window.innerWidth <= 1280) {
 				return;
@@ -34,7 +49,9 @@ export default function NavBar() {
 				innerDiv.style['top'] = '0';
 			}
 		}
-		window.addEventListener('scroll', handleScroll, { passive: true });
+		window.addEventListener('scroll', debounce(handleScroll), {
+			passive: true,
+		});
 		return () => {
 			window.removeEventListener('scroll', handleScroll);
 		};
